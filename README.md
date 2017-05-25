@@ -1,5 +1,13 @@
 # RNA-Puzzzles_format
 The submission format of RNA-Puzzles
+
+## Citation: 
+The Protein Data Bank.
+Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE.
+Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+PMID: 10592235
+[http://www.rcsb.org/pdb/file_formats/pdb/pdbguide2.2/PDB_format_1992.pdf]
+
 ___
 rna_puzzles_format.py is a script used to generate a standard formatted PDB file for given sequences in a fasta file.   
 Please refer to '2gdi.fa' for an example.   
