@@ -1,7 +1,13 @@
 # RNA-Puzzzles_format
-The submission format of RNA-Puzzles
+The submission format of RNA-Puzzles.
+It has been notified that different prediction methods of RNA 3D structure may generate different structure formats. Generally, they follow the PDB formatting rules but with many variations. For example, different chain id, deleting certain columns, atom deletions at the 5' end, etc. <br/>
+However, such format variations is prone to subtle bias in structure comparison and the results of RNA-Puzzles. For example, atom deletion at the 5' end result in a shorter structure, which may lead to better RMSD. <br/>
+To avoid such potential bias is the will of the RNA-Puzzles community concluded from the 1st RNA-Puzzles meeting. We have agreed to strict format control.<br/>
 
-RNA-Puzzles follows the [1992 PDB format](http://www.rcsb.org/pdb/file_formats/pdb/pdbguide2.2/PDB_format_1992.pdf)
+RNA-Puzzles follows the [1992 PDB format](http://www.rcsb.org/pdb/file_formats/pdb/pdbguide2.2/PDB_format_1992.pdf). 
+* Chains are numbered from A, B, C ...
+* Residues of each chain are numbered from 1, 2, 3...
+* Atom names and residue names are according to the [rna_puzzles_format.py] (https://github.com/RNA-Puzzles/RNA-Puzzzles_format/blob/master/rna_puzzles_format.py) script.
 
 ## Citation: 
 The Protein Data Bank.
@@ -11,7 +17,7 @@ PMID: 10592235
 
 
 ## Author:
-Please contact [Chichau](z.miao@ibmc-cnrs.unistra.fr) if you have any problem related to this program.
+Please contact [Chichau](mailto:z.miao@ibmc-cnrs.unistra.fr) if you have any problem related to this program.
 
 ## URL: 
 https://github.com/RNA-Puzzles/RNA-Puzzzles_format
