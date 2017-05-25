@@ -1,12 +1,14 @@
 # RNA-Puzzzles_format
 The submission format of RNA-Puzzles
 
+RNA-Puzzles follows the [1992 PDB format](http://www.rcsb.org/pdb/file_formats/pdb/pdbguide2.2/PDB_format_1992.pdf)
+
 ## Citation: 
 The Protein Data Bank.
 Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE.
 Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
 PMID: 10592235
-http://www.rcsb.org/pdb/file_formats/pdb/pdbguide2.2/PDB_format_1992.pdf
+
 
 ## Author:
 Please contact [Chichau](z.miao@ibmc-cnrs.unistra.fr) if you have any problem related to this program.
