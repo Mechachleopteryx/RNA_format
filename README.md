@@ -22,6 +22,9 @@ Please contact [Chichau](mailto:z.miao@ibmc-cnrs.unistra.fr) if you have any pro
 ## URL: 
 https://github.com/RNA-Puzzles/RNA-Puzzzles_format
 
+## Download:
+git clone https://github.com/RNA-Puzzles/RNA-Puzzzles_format.git
+
 ## Scripts:
 rna_puzzles_format.py is a script used to generate a standard formatted PDB file for given sequences in a fasta file.   
 Please refer to '2gdi.fa' for an example.   
