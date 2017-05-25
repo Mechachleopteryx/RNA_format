@@ -31,7 +31,7 @@ Real case: <br/>
 * $python rna_puzzles_format.py 2gdi.fa 5 >out.pdb
 
 <br/>
-format_check.py is a script used to check the format of a submitted PDB file by referring to a standard PDB file of good   format. If more than 1 error exist, a 'xx.format_check.txt' file is generated to include all the error reports.   
+format_check.py is a script used to check the format of a submitted PDB file by referring to a standard PDB file of good   format. If more than 1 error exist, a 'xx.format_check.txt' file is generated to include all the error reports.   <br/>
 To use:  <br/>
 * $python format_check.py [To_be_checked.pdb] [Reference.pdb]
 Real case: <br/>
