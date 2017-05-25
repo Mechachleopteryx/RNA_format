@@ -32,8 +32,9 @@ Real case: <br/>
 
 <br/>
 format_check.py is a script used to check the format of a submitted PDB file by referring to a standard PDB file of good   format. If more than 1 error exist, a 'xx.format_check.txt' file is generated to include all the error reports.   <br/>
+
 To use:  <br/>
-* $python format_check.py [To_be_checked.pdb] [Reference.pdb]
+* $python format_check.py [To_be_checked.pdb] [Reference.pdb] <br/>
 Real case: <br/>
 * $python format_check.py 2gdi.pdb out.pdb
 <hr/>
